@@ -6,7 +6,7 @@
 /*   By: sbouheni <sbouheni@student.42mulhouse.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/30 08:43:50 by sbouheni          #+#    #+#             */
-/*   Updated: 2024/05/30 10:43:10 by sbouheni         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:05:55 by sbouheni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,10 @@ int main(void)
 	Array <char>lol;
 
 	lol = chars2;
+
+	lol = lol;
+
+	std::cout << chars2[9] << std::endl;
 
 	return (0);
 }
