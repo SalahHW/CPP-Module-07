@@ -6,7 +6,7 @@
 /*   By: sbouheni <sbouheni@student.42mulhouse.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/30 08:55:30 by sbouheni          #+#    #+#             */
-/*   Updated: 2024/05/30 10:46:53 by sbouheni         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:00:36 by sbouheni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ public:
 		if (this == &other)
 			return (*this);
 		delete[] array;
-		array = new T[array_size];
 		array_size = other.array_size;
 		array = new T[other.array_size];
 		for (unsigned int i = 0; i < array_size; i++)
